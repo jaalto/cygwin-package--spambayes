@@ -1,0 +1,2 @@
+tag1: spambayes
+  http://packages.debian.org/unstable/spambayes  pregexp:orig.tar.gz file:spambayes_1.0.4.orig.tar.gz new: x:
