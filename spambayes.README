@@ -185,8 +185,11 @@ Files included in the binary distro:
 Port Notes:
 - There are no manul pages included in the sources. Neither had Debian.
 
+----- version 1.0.4-2 -----
+- Python 2.6 2010-06-17 Jari Aalto
+
 ----- version 1.0.4-1 -----
 - Initial release 2007-12-20 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later

@@ -1,8 +1,6 @@
--- Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
-
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: spambayes-1.0.4-1 -- Python-based spam filter using statistical analysis
+Subject: Updated: spambayes-1.0.4-2 -- Python-based spam filter using statistical analysis
+--text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
@@ -18,6 +16,8 @@ a simple mail filter for use with procmail.
 
 CHANGES SINCE LAST RELEASE
 ==========================
+
+Built for Python 2.6
 
 http://spambayes.svn.sourceforge.net/viewvc/spambayes/trunk/spambayes/WHAT_IS_NEW.txt?revision=HEAD&view=markup
 
