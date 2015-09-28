@@ -46,144 +46,28 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack spambayes-1.0.4-1-src.tar.bz2
+  unpack spambayes-1.1b1-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./spambayes*.sh all
 
 This will create:
-  spambayes-1.0.4-1.tar.bz2
-  spambayes-1.0.4-1-src.tar.bz2
+  spambayes-1.1b1-1.tar.xz
+  spambayes-1.1b1-1-src.tar.xz
 
 -------------------------------------------
 
 Files included in the binary distro:
-
-/usr/bin/sb_bnfilter.py
-/usr/bin/sb_bnserver.py
-/usr/bin/sb_chkopts.py
-/usr/bin/sb_client.py
-/usr/bin/sb_dbexpimp.py
-/usr/bin/sb_evoscore.py
-/usr/bin/sb_filter.py
-/usr/bin/sb_imapfilter.py
-/usr/bin/sb_mailsort.py
-/usr/bin/sb_mboxtrain.py
-/usr/bin/sb_notesfilter.py
-/usr/bin/sb_pop3dnd.py
-/usr/bin/sb_server.py
-/usr/bin/sb_unheader.py
-/usr/bin/sb_upload.py
-/usr/bin/sb_xmlrpcserver.py
-/usr/lib/python2.5/site-packages/spambayes/Corpus.py
-/usr/lib/python2.5/site-packages/spambayes/CostCounter.py
-/usr/lib/python2.5/site-packages/spambayes/CostCounter.pyc
-/usr/lib/python2.5/site-packages/spambayes/Dibbler.py
-/usr/lib/python2.5/site-packages/spambayes/Dibbler.pyc
-/usr/lib/python2.5/site-packages/spambayes/FileCorpus.py
-/usr/lib/python2.5/site-packages/spambayes/Histogram.py
-/usr/lib/python2.5/site-packages/spambayes/Histogram.pyc
-/usr/lib/python2.5/site-packages/spambayes/ImapUI.py
-/usr/lib/python2.5/site-packages/spambayes/ImapUI.pyc
-/usr/lib/python2.5/site-packages/spambayes/Options.py
-/usr/lib/python2.5/site-packages/spambayes/Options.pyc
-/usr/lib/python2.5/site-packages/spambayes/OptionsClass.py
-/usr/lib/python2.5/site-packages/spambayes/OptionsClass.pyc
-/usr/lib/python2.5/site-packages/spambayes/ProxyUI.py
-/usr/lib/python2.5/site-packages/spambayes/ProxyUI.pyc
-/usr/lib/python2.5/site-packages/spambayes/PyMeldLite.py
-/usr/lib/python2.5/site-packages/spambayes/PyMeldLite.pyc
-/usr/lib/python2.5/site-packages/spambayes/ServerUI.py
-/usr/lib/python2.5/site-packages/spambayes/ServerUI.pyc
-/usr/lib/python2.5/site-packages/spambayes/Stats.py
-/usr/lib/python2.5/site-packages/spambayes/Stats.pyc
-/usr/lib/python2.5/site-packages/spambayes/TestDriver.py
-/usr/lib/python2.5/site-packages/spambayes/TestDriver.pyc
-/usr/lib/python2.5/site-packages/spambayes/TestToolsUI.py
-/usr/lib/python2.5/site-packages/spambayes/TestToolsUI.pyc
-/usr/lib/python2.5/site-packages/spambayes/Tester.py
-/usr/lib/python2.5/site-packages/spambayes/Tester.pyc
-/usr/lib/python2.5/site-packages/spambayes/UserInterface.py
-/usr/lib/python2.5/site-packages/spambayes/UserInterface.pyc
-/usr/lib/python2.5/site-packages/spambayes/Version.py
-/usr/lib/python2.5/site-packages/spambayes/Version.pyc
-/usr/lib/python2.5/site-packages/spambayes/__init__.py
-/usr/lib/python2.5/site-packages/spambayes/__init__.pyc
-/usr/lib/python2.5/site-packages/spambayes/cdb.py
-/usr/lib/python2.5/site-packages/spambayes/cdb.pyc
-/usr/lib/python2.5/site-packages/spambayes/cdb_classifier.py
-/usr/lib/python2.5/site-packages/spambayes/cdb_classifier.pyc
-/usr/lib/python2.5/site-packages/spambayes/chi2.py
-/usr/lib/python2.5/site-packages/spambayes/chi2.pyc
-/usr/lib/python2.5/site-packages/spambayes/classifier.py
-/usr/lib/python2.5/site-packages/spambayes/classifier.pyc
-/usr/lib/python2.5/site-packages/spambayes/compatcsv.py
-/usr/lib/python2.5/site-packages/spambayes/compatcsv.pyc
-/usr/lib/python2.5/site-packages/spambayes/compatheapq.py
-/usr/lib/python2.5/site-packages/spambayes/compatheapq.pyc
-/usr/lib/python2.5/site-packages/spambayes/compatsets.py
-/usr/lib/python2.5/site-packages/spambayes/compatsets.pyc
-/usr/lib/python2.5/site-packages/spambayes/dbmstorage.py
-/usr/lib/python2.5/site-packages/spambayes/dbmstorage.pyc
-/usr/lib/python2.5/site-packages/spambayes/hammie.py
-/usr/lib/python2.5/site-packages/spambayes/hammie.pyc
-/usr/lib/python2.5/site-packages/spambayes/hammiebulk.py
-/usr/lib/python2.5/site-packages/spambayes/hammiebulk.pyc
-/usr/lib/python2.5/site-packages/spambayes/mboxutils.py
-/usr/lib/python2.5/site-packages/spambayes/mboxutils.pyc
-/usr/lib/python2.5/site-packages/spambayes/message.py
-/usr/lib/python2.5/site-packages/spambayes/msgs.py
-/usr/lib/python2.5/site-packages/spambayes/msgs.pyc
-/usr/lib/python2.5/site-packages/spambayes/oe_mailbox.py
-/usr/lib/python2.5/site-packages/spambayes/oe_mailbox.pyc
-/usr/lib/python2.5/site-packages/spambayes/optimize.py
-/usr/lib/python2.5/site-packages/spambayes/optimize.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/__init__.py
-/usr/lib/python2.5/site-packages/spambayes/resources/__init__.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/classify_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/classify_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/config_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/config_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/helmet_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/helmet_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/help_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/help_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/message_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/message_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/query_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/query_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/scanning__init__.py
-/usr/lib/python2.5/site-packages/spambayes/resources/scanning__init__.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/status_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/status_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/train_gif.py
-/usr/lib/python2.5/site-packages/spambayes/resources/train_gif.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/ui_html.py
-/usr/lib/python2.5/site-packages/spambayes/resources/ui_html.pyc
-/usr/lib/python2.5/site-packages/spambayes/resources/ui_psp.py
-/usr/lib/python2.5/site-packages/spambayes/resources/ui_psp.pyc
-/usr/lib/python2.5/site-packages/spambayes/smtpproxy.py
-/usr/lib/python2.5/site-packages/spambayes/smtpproxy.pyc
-/usr/lib/python2.5/site-packages/spambayes/storage.py
-/usr/lib/python2.5/site-packages/spambayes/storage.pyc
-/usr/lib/python2.5/site-packages/spambayes/tokenizer.py
-/usr/lib/python2.5/site-packages/spambayes/tokenizer.pyc
-/usr/share/doc/Cygwin/spambayes-1.0.4.README
-/usr/share/doc/spambayes-1.0.4/CHANGELOG.txt
-/usr/share/doc/spambayes-1.0.4/LICENSE.txt
-/usr/share/doc/spambayes-1.0.4/NEWTRICKS.txt
-/usr/share/doc/spambayes-1.0.4/PKG-INFO
-/usr/share/doc/spambayes-1.0.4/POP3PROXY.txt
-/usr/share/doc/spambayes-1.0.4/README-DEVEL.txt
-/usr/share/doc/spambayes-1.0.4/README.txt
-/usr/share/doc/spambayes-1.0.4/TESTING.txt
-/usr/share/doc/spambayes-1.0.4/WHAT_IS_NEW.txt
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 - There are no manul pages included in the sources. Neither had Debian.
+
+----- version 1.1b1-1 -----
+- New upstream release 2015-09-28 Jari Aalto
 
 ----- version 1.0.4-2 -----
 - Python 2.6 2010-06-17 Jari Aalto
@@ -192,4 +76,4 @@ Port Notes:
 - Initial release 2007-12-20 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2015 Jari Aalto; Licenced under GPL v2 or later
