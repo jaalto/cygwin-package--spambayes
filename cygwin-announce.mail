@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: spambayes-1.0.4-2 1.1b1-1 -- Python-based spam filter using statistical analysis
+Subject: Updated: spambayes-1.1b1-1 -- Python-based spam filter using statistical analysis
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -17,9 +17,9 @@ a simple mail filter for use with procmail.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Built for Python 2.6
+Built for Python 2.7
 
-http://spambayes.svn.sourceforge.net/viewvc/spambayes/trunk/spambayes/WHAT_IS_NEW.txt?revision=HEAD&view=markup
+http://sourceforge.net/p/spambayes/code/HEAD/tree/trunk/spambayes/WHAT_IS_NEW.txt
 
 INSTALL OR UPGRADE NOTES
 ========================
