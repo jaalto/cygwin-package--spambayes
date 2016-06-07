@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Python-based spam filter using statistical analysis"
 ldesc: "Program uses a different set of algorithm to most statistical spam
 filters, which enables to dramatically lower the number of legitimate
